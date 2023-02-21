@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "My Extension",
+    "version": "1.0.0",
+    "description": "Displays the user's name and allows them to configure it.",
+    "browser_action": {
+      "default_title": "My Extension",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+    "activeTab",
+    "storage"
+    ]
+  }
+  
